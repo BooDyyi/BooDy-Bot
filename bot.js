@@ -91,6 +91,7 @@ ${prefix}emoji <any things>/لتحويل اي كلمه تقولها الي اي�
 ${prefix}inv/لدعوة البوت الى سيرفرك
 ${prefix}support/سيرفر الدعم
 ${prefix}contact/ارسال اقتراح او لمراسلة صاحب البوت
+By : Ahmed Yasser ( BooDy )
 **
   `
 ,`
@@ -124,6 +125,7 @@ ${prefix}delet <name> / مسح الشات او الرووم فويس
 ${prefix}make <number> / ينشا لك الوان مع كم الوان تبي
 ${prefix}color <number> / لختيار لون
 ${prefix}deletecolors <number> / لحذف الالوان
+By : Ahmed Yasser ( BooDy )
 **
    `,`
         ***__Music orders__***
@@ -136,6 +138,7 @@ ${prefix}vol / لتغيير درجة الصوت 100 - 0
 ${prefix}stop / لإخرآج البوت من الروم
 ${prefix}np / لمعرفة الأغنية المشغلة حآليا
 ${prefix}queue / لمعرفة قآئمة التشغيل
+By : Ahmed Yasser ( BooDy )
 **
         ***__Games orders__***
  **       
@@ -155,6 +158,7 @@ ${prefix}يعطيك عقابات قاسية / عقاب
 welcome يتم الترحيب فى روم باسم
 G.setwelcomer <text channel name> لاختيار روم للترحيب
 ${prefix}voiceonline / لتفعيل روم الفويس اونلاين
+By : Ahmed Yasser ( BooDy )
 **
    
 `]
@@ -306,7 +310,7 @@ client.on('message', function(msg) {
             .addField('``My ID``' , `[ ${client.user.id} ]` , true)
 			      .addField('``My Prefix``' , `[ ! ]` , true)
 			      .addField('``My Language``' , `[ Java Script ]` , true)
-			      .setFooter('By | 3bker')
+			      .setFooter('By | BooDy')
     })
 }
 });
