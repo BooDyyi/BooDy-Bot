@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const devs = ['340545352971059201'];
+const devs = ['389090790984515594'];
 const db = require('quick.db');
 const premium = ['470896018603376640']
 const client = new Discord.Client();   
@@ -3472,7 +3472,7 @@ room.send(tests);
 }
 });
 client.on('message', message => {
-if(message.content.includes("<@435392018693488641>")) {
+if(message.content.includes("<@576561211701854208>")) {
 message.channel.startTyping()
 setTimeout(() => { 
 message.channel.stopTyping()
