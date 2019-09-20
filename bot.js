@@ -58,7 +58,7 @@ client.on('ready', function(){
  console.log(` ???????????????????`);
 });
 client.on('message', message => {
-if (message.content.startsWith(prefix + 'help')) { /// This is The DMS Code Send The Help In DMS // Code By NotGucci
+if (message.content.startsWith(prefix + 'help')) { /// This is The DMS Code Send The Help In DMS // Code By Ahmed Yasser ( BooDy )
     let pages = [`**
         ***__General orders__***
 **
@@ -230,7 +230,7 @@ message.channel.send(`**${message.author.username}, your :credit_card: balance i
 });
 
 client.on('message', async message => {
-    let amount = 250;
+    let amount = 100;
     if(message.content.startsWith(prefix + "daily")) {
     if(message.author.bot) return;
     if(coolDown.has(message.author.id)) return message.channel.send(`**:stopwatch: | ${message.author.username}, your daily :yen: credits refreshes in \`\`1 Day\`\`.**`);
@@ -719,7 +719,7 @@ message.channel.send(
      let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#9B59B6")
-  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/xA8s2AU**")
+  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/23SA6Yu**")
      
      
   message.channel.sendEmbed(embed);
